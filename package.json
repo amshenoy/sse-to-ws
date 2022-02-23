@@ -1,0 +1,18 @@
+{
+  "name": "sse-distributor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Abhishek Shenoy",
+  "license": "ISC",
+  "dependencies": {
+    "eventsource": "^1.1.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.2"
+  }
+}
