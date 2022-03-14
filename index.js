@@ -12,7 +12,7 @@ io.use((socket, next) => {
 })
 
 var source = new EventSource(SSE_URL)
-var prevId = ""
+var prevId = "", newId = ""
 source.onmessage = async function (event) {
 	var dat = JSON.parse(event.data)
 	// Check most recent unique identifier 
